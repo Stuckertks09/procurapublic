@@ -96,12 +96,12 @@ All agents are registered on **Agentverse** with the **Chat Protocol enabled** f
 
 | Agent Name             | Responsibility                                                  | Identity Key                                                       |
 |------------------------|----------------------------------------------------------------|--------------------------------------------------------------------|
-| **orchestrator_agent** | Workflow coordination, intent parsing, task routing             | `db3291e977ba0c29e88b7ce0563c00a0a383f00a0f908f91f7de4db61cd98a91` |
-| **scout_agent**        | Product/supplier discovery with Ocean Protocol-style metadata  | `14f0a49a99d72d2e1a20464fe2d32e74a52837295979f7050ecc52968ce46c7a` |
-| **compute_agent**      | CUDOS-style weighted performance/value scoring                  | `7afc8286e3e8bb10b6bb6a30862562c4a12da759421ff1fc92e06b51e99c459f` |
-| **evaluator_agent**    | MeTTa symbolic reasoning for suitability ranking                | `754f8cfca0608dd2a9347fe1179b523a2f38b16938098d3245369331a3b71b46` |
-| **negotiator_agent**   | Bulk pricing strategy, discount optimization, deal finalization | `99cf6671fe37e33776c6fcbb4561a1e8fcc11bfb3ad4e85c3d7180094fbba85f` |
-| **gateway_agent**      | (Optional) HTTP UI ↔ Agentverse bridge with SSE streaming       | `c4c25ebca140677fd1849dd07c9342509696ba1299c306cef39d5edb702a1b8f` |
+| **orchestrator_agent** | Workflow coordination, intent parsing, task routing             | `agent1qvwa3w9v2qpe8g87mwcnnsrdq30q7yst077gns8pm9l9ukxrkm8ysvtzgqc` |
+| **scout_agent**        | Product/supplier discovery with Ocean Protocol-style metadata  | `agent1qtn4ckex9l5ytkee37k55yzcemtpt0svhktxty4q0kkaexx8g8xlwpll9sf` |
+| **compute_agent**      | CUDOS-style weighted performance/value scoring                  | `agent1q04u5agrk4xj3au80avzn208j4g4f4km6662wqnv26qy026rj7kfy654fjn` |
+| **evaluator_agent**    | MeTTa symbolic reasoning for suitability ranking                | `agent1qd24yq6av5wchue0n6pw2ht9qg95l0vl0y35nyajsxha5juhdvyrz2ae62x` |
+| **negotiator_agent**   | Bulk pricing strategy, discount optimization, deal finalization | `agent1q2hsweq7l3004gejs63f3lve4zseha54ay7n9lj68c3zev2vtnlaxchak47` |
+| **gateway_agent**      | (Optional) HTTP UI ↔ Agentverse bridge with SSE streaming       | `agent1qdvc0900gh27g2ywugp7gw80ml2furkarffzrr3rufr23u0akw5fzqkxckc`  |
 
 > **Note**: Agent addresses are printed on launch. The identity keys above are for reference.
 
