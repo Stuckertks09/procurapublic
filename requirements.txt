@@ -1,0 +1,7 @@
+uagents
+fastapi
+uvicorn
+httpx
+pydantic
+hyperon
+python-dotenv

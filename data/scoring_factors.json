@@ -1,0 +1,13 @@
+{
+  "processor_weights": {
+    "AMD Ryzen 9": 0.95,
+    "Intel Core i9": 0.92,
+    "Apple M2 Pro": 0.90,
+    "Intel Core i7": 0.85,
+    "AMD Ryzen 7": 0.82,
+    "Intel Core i5": 0.75,
+    "Apple M2": 0.78
+  },
+  "max_warranty_years": 3,
+  "max_shipping_days": 10
+}

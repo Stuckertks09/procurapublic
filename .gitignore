@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# Agent secrets
+agent_keys.json
+*.wallet
+*.identity
+*.secrets.json
+
+# OS system files
+.DS_Store
+
+# Node / Frontend artifacts
+node_modules/
+dist/
+build/
+
+# Editor
+.vscode/

@@ -1,0 +1,784 @@
+{
+  "laptops": [
+    {
+      "id": "lap-001",
+      "model": "ASUS ProArt P16",
+      "brand": "ASUS",
+      "specs": {
+        "processor": "AMD Ryzen 9 7945HX",
+        "ram_gb": 32,
+        "storage_gb": 1000,
+        "gpu": "NVIDIA RTX 4060",
+        "screen_size": 16,
+        "weight_lbs": 4.8
+      },
+      "price": 1199.00,
+      "supplier": "TechDirect Wholesale",
+      "rating": 4.7,
+      "review_count": 542,
+      "shipping_days": 5,
+      "warranty_years": 2,
+      "stock": 87,
+      "use_cases": ["video-editing", "3d-modeling", "gaming"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 5 },
+        { "min_qty": 10, "discount_pct": 8 },
+        { "min_qty": 25, "discount_pct": 12 }
+      ]
+    },
+    {
+      "id": "lap-002",
+      "model": "Dell XPS 15",
+      "brand": "Dell",
+      "specs": {
+        "processor": "Intel Core i7-12700H",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "NVIDIA RTX 3050",
+        "screen_size": 15.6,
+        "weight_lbs": 4.2
+      },
+      "price": 1299.00,
+      "supplier": "GlobalBiz Supplies",
+      "rating": 4.6,
+      "review_count": 785,
+      "shipping_days": 7,
+      "warranty_years": 1,
+      "stock": 65,
+      "use_cases": ["software-development", "video-editing", "office-work"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 4 },
+        { "min_qty": 10, "discount_pct": 6 },
+        { "min_qty": 20, "discount_pct": 10 }
+      ]
+    },
+    {
+      "id": "lap-003",
+      "model": "Lenovo ThinkPad P15",
+      "brand": "Lenovo",
+      "specs": {
+        "processor": "Intel Core i7-12800H",
+        "ram_gb": 16,
+        "storage_gb": 1000,
+        "gpu": "NVIDIA RTX A2000",
+        "screen_size": 15.6,
+        "weight_lbs": 5.2
+      },
+      "price": 1449.00,
+      "supplier": "EnterpriseGear Hub",
+      "rating": 4.8,
+      "review_count": 856,
+      "shipping_days": 6,
+      "warranty_years": 3,
+      "stock": 52,
+      "use_cases": ["data-science", "3d-modeling", "software-development"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 5 },
+        { "min_qty": 10, "discount_pct": 8 },
+        { "min_qty": 20, "discount_pct": 11 }
+      ]
+    },
+    {
+      "id": "lap-004",
+      "model": "HP EliteBook 840 G10",
+      "brand": "HP",
+      "specs": {
+        "processor": "Intel Core i5-1340P",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Integrated Intel Iris Xe",
+        "screen_size": 14,
+        "weight_lbs": 3.1
+      },
+      "price": 999.00,
+      "supplier": "OfficeFlow Supply Co.",
+      "rating": 4.4,
+      "review_count": 421,
+      "shipping_days": 4,
+      "warranty_years": 2,
+      "stock": 105,
+      "use_cases": ["office-work", "remote-work", "presentations"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 3 },
+        { "min_qty": 10, "discount_pct": 5 },
+        { "min_qty": 20, "discount_pct": 9 }
+      ]
+    },
+    {
+      "id": "lap-005",
+      "model": "Apple MacBook Pro 14 (M2 Pro)",
+      "brand": "Apple",
+      "specs": {
+        "processor": "Apple M2 Pro",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Apple Integrated 16-core",
+        "screen_size": 14,
+        "weight_lbs": 3.5
+      },
+      "price": 1999.00,
+      "supplier": "TechDirect Wholesale",
+      "rating": 4.9,
+      "review_count": 1120,
+      "shipping_days": 8,
+      "warranty_years": 1,
+      "stock": 38,
+      "use_cases": ["video-editing", "music-production", "software-development"],
+      "bulk_pricing": [
+        { "min_qty": 3, "discount_pct": 2 },
+        { "min_qty": 7, "discount_pct": 4 },
+        { "min_qty": 15, "discount_pct": 6 }
+      ]
+    },
+    {
+      "id": "lap-006",
+      "model": "MSI Creator Z16",
+      "brand": "MSI",
+      "specs": {
+        "processor": "Intel Core i9-12900H",
+        "ram_gb": 32,
+        "storage_gb": 2000,
+        "gpu": "NVIDIA RTX 4070",
+        "screen_size": 16,
+        "weight_lbs": 5.3
+      },
+      "price": 2199.00,
+      "supplier": "ProCompute Distributors",
+      "rating": 4.7,
+      "review_count": 275,
+      "shipping_days": 9,
+      "warranty_years": 2,
+      "stock": 44,
+      "use_cases": ["video-editing", "ai-ml", "3d-modeling"],
+      "bulk_pricing": [
+        { "min_qty": 4, "discount_pct": 5 },
+        { "min_qty": 10, "discount_pct": 9 },
+        { "min_qty": 20, "discount_pct": 13 }
+      ]
+    },
+    {
+      "id": "lap-007",
+      "model": "Acer Swift 3",
+      "brand": "Acer",
+      "specs": {
+        "processor": "AMD Ryzen 7 7730U",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Integrated Radeon Graphics",
+        "screen_size": 14,
+        "weight_lbs": 2.8
+      },
+      "price": 749.00,
+      "supplier": "OfficeFlow Supply Co.",
+      "rating": 4.3,
+      "review_count": 398,
+      "shipping_days": 3,
+      "warranty_years": 1,
+      "stock": 120,
+      "use_cases": ["office-work", "remote-work"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 4 },
+        { "min_qty": 10, "discount_pct": 7 },
+        { "min_qty": 20, "discount_pct": 10 }
+      ]
+    },
+    {
+      "id": "lap-008",
+      "model": "Lenovo IdeaPad Flex 5",
+      "brand": "Lenovo",
+      "specs": {
+        "processor": "Intel Core i5-1335U",
+        "ram_gb": 8,
+        "storage_gb": 512,
+        "gpu": "Integrated Intel UHD",
+        "screen_size": 14,
+        "weight_lbs": 3.3
+      },
+      "price": 699.00,
+      "supplier": "GlobalBiz Supplies",
+      "rating": 4.2,
+      "review_count": 512,
+      "shipping_days": 5,
+      "warranty_years": 1,
+      "stock": 130,
+      "use_cases": ["office-work", "presentations", "education"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 3 },
+        { "min_qty": 10, "discount_pct": 6 },
+        { "min_qty": 25, "discount_pct": 9 }
+      ]
+    },
+    {
+      "id": "lap-009",
+      "model": "Razer Blade 15",
+      "brand": "Razer",
+      "specs": {
+        "processor": "Intel Core i9-13900H",
+        "ram_gb": 32,
+        "storage_gb": 1000,
+        "gpu": "NVIDIA RTX 4080",
+        "screen_size": 15.6,
+        "weight_lbs": 4.4
+      },
+      "price": 2499.00,
+      "supplier": "ProCompute Distributors",
+      "rating": 4.7,
+      "review_count": 365,
+      "shipping_days": 10,
+      "warranty_years": 2,
+      "stock": 28,
+      "use_cases": ["ai-ml", "game-development", "video-editing"],
+      "bulk_pricing": [
+        { "min_qty": 3, "discount_pct": 4 },
+        { "min_qty": 7, "discount_pct": 7 },
+        { "min_qty": 15, "discount_pct": 10 }
+      ]
+    },
+    {
+      "id": "lap-010",
+      "model": "HP Pavilion 15",
+      "brand": "HP",
+      "specs": {
+        "processor": "Intel Core i5-1235U",
+        "ram_gb": 8,
+        "storage_gb": 512,
+        "gpu": "Integrated Intel UHD",
+        "screen_size": 15.6,
+        "weight_lbs": 3.8
+      },
+      "price": 649.00,
+      "supplier": "OfficeFlow Supply Co.",
+      "rating": 4.1,
+      "review_count": 622,
+      "shipping_days": 4,
+      "warranty_years": 1,
+      "stock": 150,
+      "use_cases": ["office-work", "light-productivity", "education"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 3 },
+        { "min_qty": 10, "discount_pct": 5 },
+        { "min_qty": 25, "discount_pct": 8 }
+      ]
+    }, 
+    {
+      "id": "lap-011",
+      "model": "Dell Latitude 7440",
+      "brand": "Dell",
+      "specs": {
+        "processor": "Intel Core i7-1365U",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Integrated Intel Iris Xe",
+        "screen_size": 14,
+        "weight_lbs": 2.9
+      },
+      "price": 1299.00,
+      "supplier": "EnterpriseGear Hub",
+      "rating": 4.5,
+      "review_count": 312,
+      "shipping_days": 6,
+      "warranty_years": 3,
+      "stock": 70,
+      "use_cases": ["remote-work", "office-work", "consulting"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 4 },
+        { "min_qty": 10, "discount_pct": 7 },
+        { "min_qty": 20, "discount_pct": 10 }
+      ]
+    },
+    {
+      "id": "lap-012",
+      "model": "ASUS ROG Zephyrus G14",
+      "brand": "ASUS",
+      "specs": {
+        "processor": "AMD Ryzen 9 7940HS",
+        "ram_gb": 32,
+        "storage_gb": 1000,
+        "gpu": "NVIDIA RTX 4070",
+        "screen_size": 14,
+        "weight_lbs": 3.6
+      },
+      "price": 1899.00,
+      "supplier": "TechDirect Wholesale",
+      "rating": 4.8,
+      "review_count": 640,
+      "shipping_days": 5,
+      "warranty_years": 2,
+      "stock": 50,
+      "use_cases": ["game-development", "video-editing", "ai-ml"],
+      "bulk_pricing": [
+        { "min_qty": 4, "discount_pct": 5 },
+        { "min_qty": 10, "discount_pct": 9 },
+        { "min_qty": 20, "discount_pct": 12 }
+      ]
+    },
+    {
+      "id": "lap-013",
+      "model": "Lenovo ThinkBook 15",
+      "brand": "Lenovo",
+      "specs": {
+        "processor": "AMD Ryzen 7 7735HS",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Integrated Radeon 680M",
+        "screen_size": 15.6,
+        "weight_lbs": 4.0
+      },
+      "price": 899.00,
+      "supplier": "GlobalBiz Supplies",
+      "rating": 4.3,
+      "review_count": 510,
+      "shipping_days": 6,
+      "warranty_years": 2,
+      "stock": 85,
+      "use_cases": ["office-work", "software-development", "remote-work"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 4 },
+        { "min_qty": 10, "discount_pct": 7 },
+        { "min_qty": 20, "discount_pct": 9 }
+      ]
+    },
+    {
+      "id": "lap-014",
+      "model": "HP ZBook Studio G9",
+      "brand": "HP",
+      "specs": {
+        "processor": "Intel Core i9-12900HK",
+        "ram_gb": 32,
+        "storage_gb": 2000,
+        "gpu": "NVIDIA RTX A3000",
+        "screen_size": 16,
+        "weight_lbs": 4.7
+      },
+      "price": 2299.00,
+      "supplier": "ProCompute Distributors",
+      "rating": 4.7,
+      "review_count": 288,
+      "shipping_days": 8,
+      "warranty_years": 3,
+      "stock": 30,
+      "use_cases": ["3d-modeling", "ai-ml", "architecture"],
+      "bulk_pricing": [
+        { "min_qty": 4, "discount_pct": 6 },
+        { "min_qty": 10, "discount_pct": 10 },
+        { "min_qty": 20, "discount_pct": 13 }
+      ]
+    },
+    {
+      "id": "lap-015",
+      "model": "Acer Aspire 5",
+      "brand": "Acer",
+      "specs": {
+        "processor": "Intel Core i5-1235U",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "gpu": "Integrated Intel UHD",
+        "screen_size": 15.6,
+        "weight_lbs": 3.9
+      },
+      "price": 599.00,
+      "supplier": "OfficeFlow Supply Co.",
+      "rating": 4.0,
+      "review_count": 480,
+      "shipping_days": 4,
+      "warranty_years": 1,
+      "stock": 140,
+      "use_cases": ["education", "light-productivity", "office-work"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 3 },
+        { "min_qty": 10, "discount_pct": 5 },
+        { "min_qty": 25, "discount_pct": 8 }
+      ]
+    },
+    {
+      "id": "lap-016",
+      "model": "MSI Vector GP77",
+      "brand": "MSI",
+      "specs": {
+        "processor": "Intel Core i9-13900HX",
+        "ram_gb": 32,
+        "storage_gb": 2000,
+        "gpu": "NVIDIA RTX 4080",
+        "screen_size": 17.3,
+        "weight_lbs": 6.1
+      },
+      "price": 2499.00,
+      "supplier": "ProCompute Distributors",
+      "rating": 4.6,
+      "review_count": 202,
+      "shipping_days": 9,
+      "warranty_years": 2,
+      "stock": 25,
+      "use_cases": ["ai-ml", "video-editing", "3d-modeling"],
+      "bulk_pricing": [
+        { "min_qty": 3, "discount_pct": 4 },
+        { "min_qty": 7, "discount_pct": 7 },
+        { "min_qty": 15, "discount_pct": 10 }
+      ]
+    },
+    {
+      "id": "lap-017",
+      "model": "Dell Inspiron 14",
+      "brand": "Dell",
+      "specs": {
+        "processor": "Intel Core i5-1335U",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Integrated Intel Iris Xe",
+        "screen_size": 14,
+        "weight_lbs": 3.2
+      },
+      "price": 799.00,
+      "supplier": "TechDirect Wholesale",
+      "rating": 4.2,
+      "review_count": 365,
+      "shipping_days": 4,
+      "warranty_years": 1,
+      "stock": 92,
+      "use_cases": ["office-work", "remote-work", "education"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 4 },
+        { "min_qty": 10, "discount_pct": 7 },
+        { "min_qty": 20, "discount_pct": 9 }
+      ]
+    },
+    {
+      "id": "lap-018",
+      "model": "Apple MacBook Air 15 (M2)",
+      "brand": "Apple",
+      "specs": {
+        "processor": "Apple M2",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Apple Integrated 10-core",
+        "screen_size": 15,
+        "weight_lbs": 3.3
+      },
+      "price": 1699.00,
+      "supplier": "GlobalBiz Supplies",
+      "rating": 4.8,
+      "review_count": 917,
+      "shipping_days": 7,
+      "warranty_years": 1,
+      "stock": 48,
+      "use_cases": ["remote-work", "software-development", "presentations"],
+      "bulk_pricing": [
+        { "min_qty": 3, "discount_pct": 3 },
+        { "min_qty": 7, "discount_pct": 5 },
+        { "min_qty": 15, "discount_pct": 8 }
+      ]
+    },
+    {
+      "id": "lap-019",
+      "model": "HP Victus 16",
+      "brand": "HP",
+      "specs": {
+        "processor": "AMD Ryzen 7 7840HS",
+        "ram_gb": 16,
+        "storage_gb": 1000,
+        "gpu": "NVIDIA RTX 4060",
+        "screen_size": 16,
+        "weight_lbs": 5.3
+      },
+      "price": 1299.00,
+      "supplier": "OfficeFlow Supply Co.",
+      "rating": 4.4,
+      "review_count": 540,
+      "shipping_days": 5,
+      "warranty_years": 2,
+      "stock": 60,
+      "use_cases": ["gaming", "video-editing", "3d-modeling"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 4 },
+        { "min_qty": 10, "discount_pct": 7 },
+        { "min_qty": 20, "discount_pct": 10 }
+      ]
+    },
+    {
+      "id": "lap-020",
+      "model": "ASUS ExpertBook B9",
+      "brand": "ASUS",
+      "specs": {
+        "processor": "Intel Core i7-1365U",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Integrated Intel Iris Xe",
+        "screen_size": 14,
+        "weight_lbs": 2.2
+      },
+      "price": 1599.00,
+      "supplier": "EnterpriseGear Hub",
+      "rating": 4.6,
+      "review_count": 278,
+      "shipping_days": 6,
+      "warranty_years": 3,
+      "stock": 40,
+      "use_cases": ["business-travel", "remote-work", "presentation"],
+      "bulk_pricing": [
+        { "min_qty": 4, "discount_pct": 4 },
+        { "min_qty": 10, "discount_pct": 7 },
+        { "min_qty": 20, "discount_pct": 10 }
+      ]
+    },
+    {
+      "id": "lap-021",
+      "model": "Dell Precision 3571",
+      "brand": "Dell",
+      "specs": {
+        "processor": "Intel Core i7-12800H",
+        "ram_gb": 32,
+        "storage_gb": 1000,
+        "gpu": "NVIDIA RTX A1000",
+        "screen_size": 15.6,
+        "weight_lbs": 4.3
+      },
+      "price": 1699.00,
+      "supplier": "EnterpriseGear Hub",
+      "rating": 4.5,
+      "review_count": 335,
+      "shipping_days": 7,
+      "warranty_years": 3,
+      "stock": 45,
+      "use_cases": ["data-science", "3d-modeling", "engineering"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 5 },
+        { "min_qty": 10, "discount_pct": 8 },
+        { "min_qty": 20, "discount_pct": 11 }
+      ]
+    },
+    {
+      "id": "lap-022",
+      "model": "Lenovo ThinkPad X1 Carbon Gen 11",
+      "brand": "Lenovo",
+      "specs": {
+        "processor": "Intel Core i7-1360P",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Integrated Intel Iris Xe",
+        "screen_size": 14,
+        "weight_lbs": 2.5
+      },
+      "price": 1799.00,
+      "supplier": "TechDirect Wholesale",
+      "rating": 4.7,
+      "review_count": 410,
+      "shipping_days": 6,
+      "warranty_years": 3,
+      "stock": 50,
+      "use_cases": ["executive-use", "business-travel", "consulting"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 5 },
+        { "min_qty": 10, "discount_pct": 8 },
+        { "min_qty": 20, "discount_pct": 10 }
+      ]
+    },
+    {
+      "id": "lap-023",
+      "model": "HP Omen 17",
+      "brand": "HP",
+      "specs": {
+        "processor": "Intel Core i9-13900HX",
+        "ram_gb": 32,
+        "storage_gb": 2000,
+        "gpu": "NVIDIA RTX 4080",
+        "screen_size": 17.3,
+        "weight_lbs": 6.5
+      },
+      "price": 2399.00,
+      "supplier": "ProCompute Distributors",
+      "rating": 4.6,
+      "review_count": 318,
+      "shipping_days": 9,
+      "warranty_years": 2,
+      "stock": 32,
+      "use_cases": ["ai-ml", "video-editing", "gaming"],
+      "bulk_pricing": [
+        { "min_qty": 3, "discount_pct": 4 },
+        { "min_qty": 7, "discount_pct": 7 },
+        { "min_qty": 15, "discount_pct": 10 }
+      ]
+    },
+    {
+      "id": "lap-024",
+      "model": "Acer Predator Helios 300",
+      "brand": "Acer",
+      "specs": {
+        "processor": "Intel Core i7-13700H",
+        "ram_gb": 16,
+        "storage_gb": 1000,
+        "gpu": "NVIDIA RTX 4060",
+        "screen_size": 15.6,
+        "weight_lbs": 5.1
+      },
+      "price": 1499.00,
+      "supplier": "GlobalBiz Supplies",
+      "rating": 4.5,
+      "review_count": 498,
+      "shipping_days": 6,
+      "warranty_years": 2,
+      "stock": 62,
+      "use_cases": ["gaming", "3d-modeling", "video-editing"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 4 },
+        { "min_qty": 10, "discount_pct": 7 },
+        { "min_qty": 20, "discount_pct": 10 }
+      ]
+    },
+    {
+      "id": "lap-025",
+      "model": "Microsoft Surface Laptop 5",
+      "brand": "Microsoft",
+      "specs": {
+        "processor": "Intel Core i7-1255U",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Integrated Intel Iris Xe",
+        "screen_size": 15,
+        "weight_lbs": 3.4
+      },
+      "price": 1599.00,
+      "supplier": "OfficeFlow Supply Co.",
+      "rating": 4.4,
+      "review_count": 290,
+      "shipping_days": 5,
+      "warranty_years": 2,
+      "stock": 55,
+      "use_cases": ["remote-work", "presentations", "office-work"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 3 },
+        { "min_qty": 10, "discount_pct": 6 },
+        { "min_qty": 20, "discount_pct": 9 }
+      ]
+    },
+    {
+      "id": "lap-026",
+      "model": "MSI Modern 14",
+      "brand": "MSI",
+      "specs": {
+        "processor": "Intel Core i5-1340P",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Integrated Intel Iris Xe",
+        "screen_size": 14,
+        "weight_lbs": 2.9
+      },
+      "price": 849.00,
+      "supplier": "TechDirect Wholesale",
+      "rating": 4.2,
+      "review_count": 420,
+      "shipping_days": 4,
+      "warranty_years": 1,
+      "stock": 78,
+      "use_cases": ["office-work", "remote-work", "light-productivity"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 4 },
+        { "min_qty": 10, "discount_pct": 7 },
+        { "min_qty": 20, "discount_pct": 10 }
+      ]
+    },
+    {
+      "id": "lap-027",
+      "model": "ASUS TUF Gaming F15",
+      "brand": "ASUS",
+      "specs": {
+        "processor": "Intel Core i7-12700H",
+        "ram_gb": 16,
+        "storage_gb": 1000,
+        "gpu": "NVIDIA RTX 4050",
+        "screen_size": 15.6,
+        "weight_lbs": 5.0
+      },
+      "price": 1299.00,
+      "supplier": "GlobalBiz Supplies",
+      "rating": 4.3,
+      "review_count": 380,
+      "shipping_days": 6,
+      "warranty_years": 2,
+      "stock": 70,
+      "use_cases": ["gaming", "video-editing", "software-development"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 4 },
+        { "min_qty": 10, "discount_pct": 6 },
+        { "min_qty": 20, "discount_pct": 9 }
+      ]
+    },
+    {
+      "id": "lap-028",
+      "model": "HP Envy x360 15",
+      "brand": "HP",
+      "specs": {
+        "processor": "AMD Ryzen 7 7730U",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Integrated Radeon Graphics",
+        "screen_size": 15.6,
+        "weight_lbs": 3.9
+      },
+      "price": 1099.00,
+      "supplier": "EnterpriseGear Hub",
+      "rating": 4.5,
+      "review_count": 420,
+      "shipping_days": 5,
+      "warranty_years": 2,
+      "stock": 82,
+      "use_cases": ["remote-work", "office-work", "design"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 5 },
+        { "min_qty": 10, "discount_pct": 8 },
+        { "min_qty": 20, "discount_pct": 11 }
+      ]
+    },
+    {
+      "id": "lap-029",
+      "model": "Acer Chromebook Spin 714",
+      "brand": "Acer",
+      "specs": {
+        "processor": "Intel Core i5-1335U",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "gpu": "Integrated Intel UHD",
+        "screen_size": 14,
+        "weight_lbs": 3.0
+      },
+      "price": 649.00,
+      "supplier": "OfficeFlow Supply Co.",
+      "rating": 4.3,
+      "review_count": 390,
+      "shipping_days": 4,
+      "warranty_years": 1,
+      "stock": 100,
+      "use_cases": ["education", "chrome-os", "light-productivity"],
+      "bulk_pricing": [
+        { "min_qty": 5, "discount_pct": 3 },
+        { "min_qty": 10, "discount_pct": 5 },
+        { "min_qty": 20, "discount_pct": 8 }
+      ]
+    },
+    {
+      "id": "lap-030",
+      "model": "Razer Book 13",
+      "brand": "Razer",
+      "specs": {
+        "processor": "Intel Core i7-1165G7",
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "Integrated Intel Iris Xe",
+        "screen_size": 13.4,
+        "weight_lbs": 2.9
+      },
+      "price": 1699.00,
+      "supplier": "TechDirect Wholesale",
+      "rating": 4.4,
+      "review_count": 210,
+      "shipping_days": 7,
+      "warranty_years": 2,
+      "stock": 35,
+      "use_cases": ["executive-use", "remote-work", "travel"],
+      "bulk_pricing": [
+        { "min_qty": 4, "discount_pct": 4 },
+        { "min_qty": 10, "discount_pct": 7 },
+        { "min_qty": 20, "discount_pct": 10 }
+      ]
+    }
+  ]
+}
