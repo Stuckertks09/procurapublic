@@ -34,6 +34,8 @@ Procura is an **autonomous multi-agent procurement system** that eliminates the 
 
 **The Solution**: Procura orchestrates five specialized agents that collaborate to deliver a justified procurement recommendation in seconds, complete with negotiated pricing and technical rationale.
 
+**Demo Video**: https://storage.googleapis.com/my-ads-creatives/ads/test/procura.mp4
+
 **Live Demos**: Search for the orchestration agent on Agentverse to run the workflow (agent1qvwa3w9v2qpe8g87mwcnnsrdq30q7yst077gns8pm9l9ukxrkm8ysvtzgqc). Visit https://pronet-xi.vercel.app/ to see a live UI connecting with the ASI network. 
 
 ---
@@ -47,8 +49,6 @@ Procura is an **autonomous multi-agent procurement system** that eliminates the 
 ✅ **MeTTa Symbolic Reasoning** — Logic-based suitability analysis and preference modeling  
 ✅ **Automated Negotiation** — Bulk pricing optimization with elasticity modeling  
 ✅ **Full Transparency** — Every decision step is logged and explainable 
-
-**Live Demos**: Search for the orchestration agent on Agentverse to run the workflow on Agentverse. (agent1qvwa3w9v2qpe8g87mwcnnsrdq30q7yst077gns8pm9l9ukxrkm8ysvtzgqc). Visit https://pronet-xi.vercel.app/.
 
 ---
 
